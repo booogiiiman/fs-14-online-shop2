@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+.mainNavBar {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(45, 44, 44);
+}
+
+.navBarParantsWords {
+  align-items: center;
+  width: 75%;
+  display: flex;
+  line-height: 90px;
+  justify-content: space-around;
+  font-stretch: expanded;
+  font-weight: 600;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.logonavbar {
+  width: 150px;
+}
+a {
+  text-decoration: none;
+  color: #e4e4e4;
+}
+
+.logoMain {
+  width: 10% auto;
+}
+.active {
+  color: rgb(165, 164, 164) !important;
+}
+.active:hover {
+  text-decoration: underline;
+}
+
+.navBarAuthAndSearch {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  align-items: center;
+}
+
+.authAndSearch {
+  width: 35px;
+  height: 35px;
+
+  fill: #3f90d6;
+}
+
+img[title]:hover::after {
+  content: attr(title);
+  background-color: aqua;
+}
